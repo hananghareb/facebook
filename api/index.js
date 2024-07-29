@@ -12,7 +12,9 @@ app.use(userrouter)
 app.use(postrouter)
 app.use(commentrouter)
 dbconnection
-
+app.get("/",(req,res)=>{
+    res.json("hellllo")
+})
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
