@@ -1,0 +1,100 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "comments",
+    "collectionId": "48e6c9d4-7071-44a5-b34d-7d812c5776c4",
+    "dateExported": "2024-07-28T21:41:00.947Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "262791ca-fd56-4b4e-897e-849d093ad42f",
+            "colId": "48e6c9d4-7071-44a5-b34d-7d812c5776c4",
+            "containerId": "",
+            "name": "addcomment",
+            "url": "http://localhost:3000/addcomment",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-28T21:27:23.802Z",
+            "modified": "2024-07-28T21:33:42.664Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"content\":\"ay7age\",\n  \"userId\":2,\n  \"postId\":4\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8e74b0e6-f527-43b7-889e-307dc46980e5",
+            "colId": "48e6c9d4-7071-44a5-b34d-7d812c5776c4",
+            "containerId": "",
+            "name": "getcomment",
+            "url": "http://localhost:3000/getcomment",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-28T21:33:58.767Z",
+            "modified": "2024-07-28T21:34:22.573Z",
+            "headers": []
+        },
+        {
+            "_id": "88c59a31-243d-4d69-bb29-e81a744c7035",
+            "colId": "48e6c9d4-7071-44a5-b34d-7d812c5776c4",
+            "containerId": "",
+            "name": "getspeceficcomment",
+            "url": "http://localhost:3000/specefic",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-28T21:34:41.704Z",
+            "modified": "2024-07-28T21:35:08.412Z",
+            "headers": []
+        },
+        {
+            "_id": "4ead61f0-2911-4076-a117-f5664475801e",
+            "colId": "48e6c9d4-7071-44a5-b34d-7d812c5776c4",
+            "containerId": "",
+            "name": "updatecomment",
+            "url": "http://localhost:3000/updatecomment?id=2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-07-28T21:35:41.296Z",
+            "modified": "2024-07-28T21:37:20.705Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\":1,\n  \"content\":\"updated\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f75191da-6176-49b4-915d-7fa6516fa0c8",
+            "colId": "48e6c9d4-7071-44a5-b34d-7d812c5776c4",
+            "containerId": "",
+            "name": "deletecomment",
+            "url": "http://localhost:3000/deletecomment?id=3",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-07-28T21:37:52.490Z",
+            "modified": "2024-07-28T21:39:11.457Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\":2\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "I7ndy-1_fZg67uY9vxdvyVyZS0Mnam4EW4CgtSyXj5LVclCXSiJ51iM0tyvgiMOXu3QUbAqIV71vHd6WzL76ng"
+}
